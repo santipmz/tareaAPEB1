@@ -1,15 +1,108 @@
+/* 
+CSS 
+UNIVERSIDAD TÉCNICA PARTICULAR DE LOJA
+TECNOLOGÍAS WEB 
+por Santiago Patricio Muñoz Zurita
+*/
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url(https://fonts.googleapis.com/css?family=Bree+Serif);
+
+body {
+	background: #ede6e6;
+	font-size:22px;
+	line-height: 32px;
+	color: #190e0e;
+	word-wrap:break-word !important;
+	font-family: 'Open Sans', sans-serif;
+	}
+footer {
+	background: #ede6e6;
+	font-size:18px;
+	text-align: center;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 60px;
+	}
+header {
+	background: #ede6e6;
+	font-size:18px;
+	text-align: center;
+	width: 100%;
+	height: 60px;
+	}
+h3 {
+	font-size: 30px;
+	text-align: center;
+	color: #FFF;
+}
+h3 a {
+	color: #FFF;
+}
+a {
+	color: #FFF;
+}
 h1 {
-    color: blue;
-    text-align: center;
-  }
-ul {
-  display: flex;
-  list-style: none;
-  padding: 0;
-  width: 400px;
+	font-size: 60px;
+	text-align: left;
+	color: #878484;
+	margin-top: 100px;
+	font-family: 'Bree Serif', 'serif';
 }
-  
-li {
-  flex-grow: 1;
+#container {
+	margin: 0 auto;
 }
-  
+p {
+	text-align: center;
+}
+nav {
+	margin: 50px 0;
+	background-color: #E64A19;
+}
+nav ul {
+	padding: 0;
+    margin: 0;
+	list-style: none;
+	position: relative;
+	}
+nav ul li {
+	display:inline-block;
+	background-color: #E64A19;
+	}
+nav a {
+	display:block;
+	padding:0 10px;	
+	color:#FFF;
+	font-size:20px;
+	line-height: 60px;
+	text-decoration:none;
+}
+nav a:hover { 
+	background-color: #878484; 
+}
+/* Esconder desplegables */
+nav ul ul {
+	display: none;
+	position: absolute; 
+	top: 60px; /* Altura del desplegable */
+}
+nav ul li:hover > ul {
+	display:inherit;
+}
+/* Despliegue de primer nivel */
+nav ul ul li {
+	width:170px;
+	float:none;
+	display:list-item;
+	position: relative;
+}
+/* Despliegues posteriores	*/
+nav ul ul ul li {
+	position: relative;
+	top:-60px; 
+	left:170px;
+}
+/* Símbolo de menú desplegable */
+li > a:after { content:  ' +'; }
+li > a:only-child:after { content: ''; }
