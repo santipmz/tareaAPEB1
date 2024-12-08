@@ -25,7 +25,6 @@ footer {
 	padding: 18px;
 	text-align: center;
 	height: 60px;
-
 	}
 header {
 	background: #ede6e6;
@@ -60,7 +59,6 @@ p {
 }
 nav {
 	margin: 50px 0;
-	/*background-color: #E64A19;*/
 	background-color: #19b6e6;
 }
 nav ul {
@@ -71,7 +69,6 @@ nav ul {
 	}
 nav ul li {
 	display:inline-block;
-	/*background-color: #E64A19;*/
 	background-color: #19b6e6;
 	}
 nav a {
