@@ -104,3 +104,21 @@ nav ul ul ul li {
 	top:-60px; 
 	left:170px;
 }
+/*usado para el logo*/
+.contenedor {
+	position: absolute;
+	top: 10px; left: 10px;
+	height: 100px;
+}
+.contenedor_img {
+	border-radius: 8px;
+	padding: 5px;
+}
+.contenedor_img_der {
+	border-radius: 8px;
+	float: right;
+	padding: 5px;
+}
+article{
+	width: 90%;
+}
