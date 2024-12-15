@@ -34,8 +34,18 @@ header {
 	height: 60px;
 	}
 .cabecera{
-	
+	background-color: #3a3ab6;
+	height: 120px;
 }
+.cabecera .nombre-sitio{
+	color: white;
+	font-size: 2em;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.cabecera .logo{
+	width: 3%;
+}
+
 h1 {
 	font-size: 60px;
 	text-align: left;
