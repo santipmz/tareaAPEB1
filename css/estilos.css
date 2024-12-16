@@ -18,7 +18,7 @@ body {
 	font-family: 'Open Sans', sans-serif;
 	}
 footer {
-	background-color: #19b6e6;
+	background-color:#cb4c46;
 	display: flex;
 	flex-direction: column;
 	color:#FFF;
@@ -34,7 +34,7 @@ header {
 	height: 60px;
 	}
 .cabecera{
-	background-color: #3a3ab6;
+	background-color: #670010;
 	height: 160px;
 }
 .cabecera .nombre-sitio{
@@ -74,7 +74,7 @@ p {
 }
 .menu {
 	margin: 50px 0;
-	background-color: #19b6e6;
+	background-color:#960018;
 }
 .menu ul {
 	padding: 0;
@@ -84,10 +84,10 @@ p {
 	}
 .menu ul li {
 	display:inline-block;
-	background-color: #19b6e6;
+	background-color: #960018;
 	}
 .menu a {
-	display:block;
+	display:inline-block;
 	padding:0 10px;	
 	color:#FFF;
 	font-size:20px;
@@ -95,7 +95,7 @@ p {
 	text-decoration:none;
 }
 .menu a:hover { 
-	background-color: #878484; 
+	background-color: #ff8478; 
 }
 /* Esconder desplegables */
 .menu ul ul {
