@@ -35,7 +35,7 @@ header {
 	}
 .cabecera{
 	background-color: #3a3ab6;
-	height: 120px;
+	height: 160px;
 }
 .cabecera .nombre-sitio{
 	color: white;
@@ -44,6 +44,8 @@ header {
 }
 .cabecera .logo{
 	width: 3%;
+	padding-top: 20px;
+	padding-right: 20px;
 }
 
 h1 {
@@ -70,21 +72,21 @@ a {
 p {
 	text-align: center;
 }
-nav {
+.menu {
 	margin: 50px 0;
 	background-color: #19b6e6;
 }
-nav ul {
+.menu ul {
 	padding: 0;
     margin: 0;
 	list-style: none;
 	position: relative;
 	}
-nav ul li {
+.menu ul li {
 	display:inline-block;
 	background-color: #19b6e6;
 	}
-nav a {
+.menu a {
 	display:block;
 	padding:0 10px;	
 	color:#FFF;
@@ -92,27 +94,27 @@ nav a {
 	line-height: 60px;
 	text-decoration:none;
 }
-nav a:hover { 
+.menu a:hover { 
 	background-color: #878484; 
 }
 /* Esconder desplegables */
-nav ul ul {
+.menu ul ul {
 	display: none;
 	position: absolute; 
 	top: 60px; /* Altura del desplegable */
 }
-nav ul li:hover > ul {
+.menu ul li:hover > ul {
 	display:inherit;
 }
 /* Despliegue de primer nivel */
-nav ul ul li {
+.menu ul ul li {
 	width:170px;
 	float:none;
 	display:list-item;
 	position: relative;
 }
 /* Despliegues posteriores	*/
-nav ul ul ul li {
+.menu ul ul ul li {
 	position: relative;
 	top:-60px; 
 	left:170px;
